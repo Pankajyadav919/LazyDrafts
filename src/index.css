@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:wght@400;500;600;700&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom animation delays */
+.animation-delay-2000 {
+  animation-delay: 2s;
+}
+
+.animation-delay-300 {
+  animation-delay: 0.3s;
+}
+
+.animation-delay-500 {
+  animation-delay: 0.5s;
+}
+
+.animation-delay-700 {
+  animation-delay: 0.7s;
+}
+
+.animation-delay-900 {
+  animation-delay: 0.9s;
+}
+
+.animation-delay-4000 {
+  animation-delay: 4s;
+}
+
+.animation-duration-15s {
+  animation-duration: 15s;
+}
+
+.animation-duration-20s {
+  animation-duration: 20s;
+}
+
+.animation-fill-forwards {
+  animation-fill-mode: forwards;
+}
+
+/* Performance optimizations */
+.will-change-transform {
+  will-change: transform;
+}
+
+.will-change-transform-shadow {
+  will-change: transform, box-shadow;
+}
+@layer base {
+  html, body {
+    @apply overflow-x-hidden;
+  }
+}
